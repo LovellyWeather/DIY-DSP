@@ -10094,7 +10094,7 @@ fieldset[disabled] .form-check .form-check-input,
 .card .card-header-danger, .card.bg-danger,
 .card.card-rotate.bg-danger .front,
 .card.card-rotate.bg-danger .back {
-  background: linear-gradient(60deg, #ef5350, #d32f2f);
+  background: linear-gradient(60deg, #ef6f6c, #d32f2f);
 }
 
 .card .card-header-rose, .card.bg-rose,
@@ -12783,7 +12783,7 @@ textarea {
 }
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
-  font-family: 'Roboto', Noto;
+  font-family: 'Roboto Mono', monospace;
   font-weight: 300;
   line-height: 1.5em;
 }
@@ -12836,7 +12836,7 @@ h6, .h6 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 12px;
   margin: 0 0 10px;
 }
 
@@ -12858,7 +12858,7 @@ small,
 .footer-big h4,
 .media .media-heading {
   font-weight: 700;
-  font-family: "Roboto Slab", "Times New Roman", serif;
+  font-family: "Roboto Mono", monospace;
 }
 
 .title,
