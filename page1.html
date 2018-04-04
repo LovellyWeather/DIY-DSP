@@ -62,13 +62,13 @@
             </div>
         </div>
     </nav>
-    <div class="page-header header-filter clear-filter gradient" data-parallax="true" style="background-color: #4a4063">
+    <div class="page-header header-filter clear-filter gradient" data-parallax="true" style="background-color: #ef6f6c">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto">
                     <div class="brand">
-                        <h1>I DONT KNOW WHAT THE TITLE SHOULD BE</h1>
-                        <h3>Learn Digital-Signal-Processing with the Pedal-Pi from Electrosmash</h3>
+                        <h1>DSP Terms and Concepts</h1>
+                        <h3>To start off we'll introduce the general idea of digital-signal-processing, some relevant terminology we'll be using throughout the project, and the basics of a guitar rig. </h3>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,45 @@
     </div>
     <div class="main main-raised animated slideInUp">
         <div class="section section-basic">
-            
+            <div class="jumbotron-fluid">
+                <h1 class="display-3" style="font-weight: bold; color: #ef6f6c;">What Is DSP?</h1>
+                <p class="lead">Digital Signal Processing, or DSP, is the process of manipulating different types
+                    of signals using mathematical programs and functions. It all begins with a real-world signal,
+                    such as sound, light, pressure, etc., being taken in by an <b>Analog-to-Digital Converter (ADC)</b>. This converter 
+                    reads the signal and turns it into a binary representation, 1's and 0's, so that 
+                    it can be manipulated. Way Cool!
+                </p>
+                <br>
+                <p class="lead">Once the signal is converted to digital data, it is stored in the <b>Data Memory</b>, on our system. 
+                    We can create programs that tell our processor how to manipulate and alter it. These programs are stored in the <b>Program Memory</b> on our system. 
+                    The <b>Processor</b> of our system takes the data from the data memory, the programs from the program memory, and alters the data according to the 
+                    instructions of the programs. 
+                    This is where our differect effects programs/algorithms come in. We could amplify the data values with an overdrive algorithm,
+                    make a funky glitch sound with a bit-crusher algorithm, or change the pitch of the signal with a phaser algorithm.
+                    After the processor is done, it puts the newly altered data back into the Data Memory.
+                </p>
+                <br>
+                <p class="lead"> Many things can be done with the data after it's 
+                        been processed, but for our purposes we'll be converting it back to an analog signal. This 
+                        is done using the opposite of an ADC, a <b>Digital-to-Analog Converter (DAC)</b>. Woo! 
+                </p>
+                <br>
+                <h3>Below is a list of the terms from above that we'll frequently be using along with their definitions.</h3>
+                <ul>
+                    <br>
+                    <li>ADC - Analog-To-Digital Converter that converts analog signals into digital data.</li>
+                    <li>Processor - Performs program operations on the digital data. </li>
+                    <li>Data Memory - A portion of the systems memory where the signal data is stored. </li>
+                    <li>Program Memory - A portion of the systems memory where the programs are stored. </li>
+                    <li>DAC - Digital-To-Analog Converter that converts the processed digital data back into an analog signal.</li>
+                </ul>
+                <br>
+                <img src="./assets/img/dspdiagram.png"></img>
+                <br>
+                <p class="lead"></p>
+            </div>
+            <br>
+            <hr>
         </div>
     </div>
 
